@@ -419,7 +419,7 @@
  "max_attachments": 0, 
  "modified": "2018-06-12 12:05:16.337082", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Additional Salary", 
  "name_case": "", 
  "owner": "Administrator", 
