@@ -449,7 +449,7 @@
  "max_attachments": 0, 
  "modified": "2017-11-06 06:52:01.868222", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Driver", 
  "name_case": "Title Case", 
  "owner": "Administrator", 
