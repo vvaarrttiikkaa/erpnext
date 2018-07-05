@@ -242,7 +242,7 @@
  "max_attachments": 0, 
  "modified": "2016-01-29 02:14:36.034952", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Attendance Tool", 
  "name_case": "", 
  "owner": "Administrator", 

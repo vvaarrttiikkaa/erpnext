@@ -216,7 +216,7 @@
  "max_attachments": 0, 
  "modified": "2018-06-19 10:10:23.732132", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Taxable Salary Slab", 
  "name_case": "", 
  "owner": "Administrator", 

@@ -534,7 +534,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-16 22:43:38.251845",
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Onboarding", 
  "name_case": "", 
  "owner": "Administrator", 

@@ -186,7 +186,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-17 10:32:12.974763",
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Payroll Employee Detail", 
  "name_case": "", 
  "owner": "Administrator", 

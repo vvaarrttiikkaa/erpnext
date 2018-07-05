@@ -447,7 +447,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-25 12:01:01.490375", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Benefit Application", 
  "name_case": "", 
  "owner": "Administrator", 

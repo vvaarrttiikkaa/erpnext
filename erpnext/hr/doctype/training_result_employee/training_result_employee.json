@@ -307,7 +307,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-17 10:09:57.777384",
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Training Result Employee", 
  "name_case": "", 
  "owner": "Administrator", 

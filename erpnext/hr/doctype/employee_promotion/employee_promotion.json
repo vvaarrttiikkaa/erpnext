@@ -321,7 +321,7 @@
  "max_attachments": 0, 
  "modified": "2018-06-22 11:28:04.754534", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Promotion", 
  "name_case": "", 
  "owner": "Administrator", 

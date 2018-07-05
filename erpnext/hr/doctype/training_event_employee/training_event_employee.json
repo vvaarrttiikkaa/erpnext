@@ -217,7 +217,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-17 10:19:51.899523",
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Training Event Employee", 
  "name_case": "", 
  "owner": "Administrator", 

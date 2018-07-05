@@ -811,7 +811,7 @@
  "max_attachments": 0, 
  "modified": "2017-10-23 06:13:29.065781", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Training Event", 
  "name_case": "", 
  "owner": "Administrator", 

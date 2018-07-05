@@ -1,4 +1,4 @@
-{
+module{
  "allow_copy": 0, 
  "allow_guest_to_view": 0, 
  "allow_import": 0, 
@@ -241,7 +241,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-15 10:42:07.960530", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Travel Request Costing", 
  "name_case": "", 
  "owner": "Administrator", 

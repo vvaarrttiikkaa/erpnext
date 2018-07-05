@@ -627,7 +627,7 @@
  "max_attachments": 0, 
  "modified": "2017-06-13 14:29:08.103882", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Vehicle Log", 
  "name_case": "", 
  "owner": "Administrator", 
