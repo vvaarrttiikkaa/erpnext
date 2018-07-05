@@ -624,7 +624,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-17 12:21:34.997953",
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Leave Allocation", 
  "owner": "Administrator", 
  "permissions": [

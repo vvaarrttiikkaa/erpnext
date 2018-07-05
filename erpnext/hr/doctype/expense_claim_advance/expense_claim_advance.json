@@ -222,7 +222,7 @@
  "max_attachments": 0, 
  "modified": "2017-10-09 19:59:48.818139", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Expense Claim Advance", 
  "name_case": "", 
  "owner": "Administrator", 

@@ -319,7 +319,7 @@
  "max_attachments": 0, 
  "modified": "2018-06-09 17:44:32.705557", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Tax Exemption Declaration", 
  "name_case": "", 
  "owner": "Administrator", 

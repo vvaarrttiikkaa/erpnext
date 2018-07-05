@@ -452,7 +452,7 @@
  "max_attachments": 0, 
  "modified": "2018-06-22 11:27:37.120882", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Transfer", 
  "name_case": "", 
  "owner": "Administrator", 

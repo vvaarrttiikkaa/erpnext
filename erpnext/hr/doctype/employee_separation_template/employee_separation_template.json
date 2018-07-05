@@ -247,7 +247,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-09 07:05:30.792336", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Separation Template", 
  "name_case": "", 
  "owner": "Administrator", 

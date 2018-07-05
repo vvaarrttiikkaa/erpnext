@@ -308,7 +308,7 @@
  "max_attachments": 0, 
  "modified": "2018-04-30 12:49:59.239227", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Holiday List", 
  "owner": "Administrator", 
  "permissions": [

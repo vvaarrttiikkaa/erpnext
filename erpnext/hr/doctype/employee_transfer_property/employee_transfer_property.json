@@ -118,7 +118,7 @@
  "max_attachments": 0, 
  "modified": "2018-04-13 18:25:54.889579", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Transfer Property", 
  "name_case": "", 
  "owner": "Administrator", 

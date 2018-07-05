@@ -510,7 +510,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-25 14:43:02.871669", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Leave Period", 
  "name_case": "", 
  "owner": "Administrator", 

@@ -75,7 +75,7 @@
  "max_attachments": 0, 
  "modified": "2016-07-18 12:39:29.709848", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Expense Claim Account", 
  "name_case": "", 
  "owner": "Administrator", 

@@ -338,7 +338,7 @@
  "max_attachments": 0, 
  "modified": "2018-06-16 12:31:55.710812", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Job Applicant", 
  "owner": "Administrator", 
  "permissions": [

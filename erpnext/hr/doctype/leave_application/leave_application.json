@@ -889,7 +889,7 @@
  "max_attachments": 3, 
  "modified": "2018-05-17 10:13:40.623098",
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Leave Application", 
  "owner": "Administrator", 
  "permissions": [

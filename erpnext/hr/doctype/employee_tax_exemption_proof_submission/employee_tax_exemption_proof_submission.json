@@ -414,7 +414,7 @@
  "max_attachments": 0, 
  "modified": "2018-06-09 17:43:46.071900", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Tax Exemption Proof Submission", 
  "name_case": "", 
  "owner": "Administrator", 

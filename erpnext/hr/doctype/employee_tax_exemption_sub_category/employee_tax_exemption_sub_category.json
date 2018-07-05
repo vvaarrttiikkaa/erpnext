@@ -117,7 +117,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-09 13:25:01.595240", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Tax Exemption Sub Category", 
  "name_case": "", 
  "owner": "Administrator", 

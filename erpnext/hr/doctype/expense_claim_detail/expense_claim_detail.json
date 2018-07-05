@@ -351,7 +351,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-16 22:42:56.727863",
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Expense Claim Detail", 
  "owner": "harshada@webnotestech.com", 
  "permissions": [], 

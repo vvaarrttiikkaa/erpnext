@@ -552,7 +552,7 @@
  "max_attachments": 0, 
  "modified": "2018-06-20 14:21:54.707831", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Separation", 
  "name_case": "", 
  "owner": "Administrator", 

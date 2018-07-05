@@ -108,7 +108,7 @@
  "max_attachments": 0, 
  "modified": "2016-11-07 11:54:10.936716", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Expense Claim Type", 
  "owner": "harshada@webnotestech.com", 
  "permissions": [

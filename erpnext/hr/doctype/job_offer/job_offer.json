@@ -580,7 +580,7 @@
  "max_attachments": 0, 
  "modified": "2018-06-05 14:40:26.748824", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Job Offer", 
  "name_case": "", 
  "owner": "Administrator", 
