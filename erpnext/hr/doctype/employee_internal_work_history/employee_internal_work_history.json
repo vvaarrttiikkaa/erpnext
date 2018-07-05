@@ -155,7 +155,7 @@
  "max_attachments": 0, 
  "modified": "2016-07-11 03:28:00.195130", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Internal Work History", 
  "owner": "Administrator", 
  "permissions": [], 

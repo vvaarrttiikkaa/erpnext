@@ -274,7 +274,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-09 06:15:41.768236", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Onboarding Activity", 
  "name_case": "", 
  "owner": "Administrator", 

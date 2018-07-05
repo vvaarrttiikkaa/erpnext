@@ -1005,7 +1005,7 @@
  "max_attachments": 0, 
  "modified": "2018-06-22 17:27:08.334858", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Salary Component", 
  "name_case": "", 
  "owner": "Administrator", 

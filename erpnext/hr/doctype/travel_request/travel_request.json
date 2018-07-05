@@ -878,7 +878,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-25 22:43:34.438949",
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Travel Request", 
  "name_case": "", 
  "owner": "Administrator", 

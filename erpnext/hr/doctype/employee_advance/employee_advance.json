@@ -658,7 +658,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-17 10:43:18.011693",
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Advance", 
  "name_case": "", 
  "owner": "Administrator", 

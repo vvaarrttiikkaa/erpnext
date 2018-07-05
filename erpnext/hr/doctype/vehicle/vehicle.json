@@ -836,7 +836,7 @@
  "max_attachments": 0, 
  "modified": "2017-11-29 14:48:30.813359", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Vehicle", 
  "name_case": "", 
  "owner": "Administrator", 

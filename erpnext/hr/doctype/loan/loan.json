@@ -1075,7 +1075,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-25 15:32:58.948412", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Loan", 
  "name_case": "", 
  "owner": "Administrator", 

@@ -217,7 +217,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-16 22:43:05.329951",
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Salary Structure Employee", 
  "name_case": "", 
  "owner": "Administrator", 

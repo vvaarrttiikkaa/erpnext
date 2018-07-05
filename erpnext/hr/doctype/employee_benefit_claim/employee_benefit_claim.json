@@ -452,7 +452,7 @@
  "max_attachments": 0, 
  "modified": "2018-06-18 11:14:59.895298", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Benefit Claim", 
  "name_case": "", 
  "owner": "Administrator", 

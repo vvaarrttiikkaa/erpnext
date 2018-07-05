@@ -275,7 +275,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-10 06:54:47.282492", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Boarding Activity", 
  "name_case": "", 
  "owner": "Administrator", 
