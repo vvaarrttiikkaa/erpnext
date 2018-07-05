@@ -416,7 +416,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-17 09:55:51.504294",
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Attendance", 
  "owner": "ashwini@webnotestech.com", 
  "permissions": [

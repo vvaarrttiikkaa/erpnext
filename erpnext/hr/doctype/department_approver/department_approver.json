@@ -60,7 +60,7 @@
  "max_attachments": 0, 
  "modified": "2018-04-17 11:05:46.294340", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Department Approver", 
  "name_case": "", 
  "owner": "Administrator", 

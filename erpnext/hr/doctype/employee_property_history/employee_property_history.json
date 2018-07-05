@@ -145,7 +145,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-02 18:19:54.436391", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Employee Property History", 
  "name_case": "", 
  "owner": "Administrator", 
