@@ -720,7 +720,7 @@
  "max_attachments": 0, 
  "modified": "2018-02-26 08:35:57.606555", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Loan Application", 
  "name_case": "", 
  "owner": "Administrator", 

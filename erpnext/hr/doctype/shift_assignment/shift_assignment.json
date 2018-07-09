@@ -309,7 +309,7 @@
  "max_attachments": 0, 
  "modified": "2018-04-17 14:50:09.125737", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Shift Assignment", 
  "name_case": "", 
  "owner": "Administrator", 

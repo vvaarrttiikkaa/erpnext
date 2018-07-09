@@ -87,7 +87,7 @@
  "max_attachments": 0, 
  "modified": "2018-04-13 19:39:37.473294", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Payroll Period Date", 
  "name_case": "", 
  "owner": "Administrator", 

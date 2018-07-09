@@ -435,7 +435,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-15 17:54:47.167810", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Leave Encashment", 
  "name_case": "", 
  "owner": "Administrator", 

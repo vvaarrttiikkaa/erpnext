@@ -567,7 +567,7 @@
  "max_attachments": 0, 
  "modified": "2018-05-16 22:42:59.974450", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Salary Detail", 
  "name_case": "", 
  "owner": "Administrator", 

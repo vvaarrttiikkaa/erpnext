@@ -49,7 +49,7 @@
  "max_attachments": 0, 
  "modified": "2016-07-11 03:28:02.032277", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Leave Block List Allow", 
  "owner": "Administrator", 
  "permissions": [], 

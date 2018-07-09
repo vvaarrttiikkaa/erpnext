@@ -399,7 +399,7 @@
  "max_attachments": 0, 
  "modified": "2018-04-14 16:11:12.749326", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Salary Structure Assignment", 
  "name_case": "", 
  "owner": "Administrator", 

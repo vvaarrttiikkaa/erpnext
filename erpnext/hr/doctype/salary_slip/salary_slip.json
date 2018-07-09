@@ -1814,7 +1814,7 @@
  "max_attachments": 0, 
  "modified": "2018-04-27 12:42:21.278360", 
  "modified_by": "Administrator", 
- "module": "HR", 
+ "module": "hr", 
  "name": "Salary Slip", 
  "owner": "Administrator", 
  "permissions": [
