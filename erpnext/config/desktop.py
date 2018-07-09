@@ -14,7 +14,7 @@ def get_data():
 			"link": "List/Project"
 		},
 		{
-			"module_name": "HR",
+			"module_name": "hr",
 			"color": "#2ecc71",
 			"icon": "octicon octicon-organization",
 			"label": _("Human Resources"),
