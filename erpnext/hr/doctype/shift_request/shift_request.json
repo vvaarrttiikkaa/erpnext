@@ -42,7 +42,7 @@
    "reqd": 1, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0,
+   "translatable": 0, 
    "unique": 0
   }, 
   {
@@ -74,7 +74,7 @@
    "reqd": 1, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0,
+   "translatable": 0, 
    "unique": 0
   }, 
   {
@@ -83,7 +83,6 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
-   "fetch_from": "employee.employee_name",
    "fieldname": "employee_name", 
    "fieldtype": "Data", 
    "hidden": 0, 
@@ -96,7 +95,7 @@
    "label": "Employee Name", 
    "length": 0, 
    "no_copy": 0, 
-   "options": "", 
+   "options": "employee.employee_name", 
    "permlevel": 0, 
    "precision": "", 
    "print_hide": 0, 
@@ -107,7 +106,7 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0,
+   "translatable": 0, 
    "unique": 0
   }, 
   {
@@ -116,39 +115,6 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
-   "fetch_from": "employee.department",
-   "fieldname": "department",
-   "fieldtype": "Link",
-   "hidden": 0,
-   "ignore_user_permissions": 0,
-   "ignore_xss_filter": 0,
-   "in_filter": 0,
-   "in_global_search": 0,
-   "in_list_view": 0,
-   "in_standard_filter": 0,
-   "label": "Department",
-   "length": 0,
-   "no_copy": 0,
-   "options": "Department",
-   "permlevel": 0,
-   "precision": "",
-   "print_hide": 0,
-   "print_hide_if_no_value": 0,
-   "read_only": 1,
-   "remember_last_selected_value": 0,
-   "report_hide": 0,
-   "reqd": 0,
-   "search_index": 0,
-   "set_only_once": 0,
-   "translatable": 0,
-   "unique": 0
-  },
-  {
-   "allow_bulk_edit": 0,
-   "allow_on_submit": 0,
-   "bold": 0,
-   "collapsible": 0,
-   "columns": 0,
    "fieldname": "column_break_4", 
    "fieldtype": "Column Break", 
    "hidden": 0, 
@@ -170,7 +136,7 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0,
+   "translatable": 0, 
    "unique": 0
   }, 
   {
@@ -202,7 +168,7 @@
    "reqd": 1, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0,
+   "translatable": 0, 
    "unique": 0
   }, 
   {
@@ -233,7 +199,7 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0,
+   "translatable": 0, 
    "unique": 0
   }, 
   {
@@ -264,7 +230,7 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0,
+   "translatable": 0, 
    "unique": 0
   }, 
   {
@@ -295,7 +261,7 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0,
+   "translatable": 0, 
    "unique": 0
   }
  ], 
@@ -309,9 +275,9 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2018-05-17 10:23:55.480615",
+ "modified": "2018-04-16 11:01:25.902995", 
  "modified_by": "Administrator", 
- "module": "hr", 
+ "module": "HR", 
  "name": "Shift Request", 
  "name_case": "", 
  "owner": "Administrator", 

@@ -1,23 +1,22 @@
-/* eslint-disable */
-// rename this file from _test_[name] to test_[name] to activate
-// and remove above this line
+QUnit.module('hr');
 
-QUnit.test("test: Leave Type", function (assert) {
+QUnit.test("Test: Leave type [HR]", function (assert) {
+	assert.expect(1);
 	let done = assert.async();
 
-	// number of asserts
-	assert.expect(1);
-
 	frappe.run_serially([
-		// insert a new Leave Type
-		() => frappe.tests.make('Leave Type', [
-			// values to be set
-			{key: 'value'}
-		]),
-		() => {
-			assert.equal(cur_frm.doc.key, 'value');
-		},
+		// test leave type creation
+		() => frappe.set_route("List", "Leave Type", "List"),
+		() => frappe.new_doc("Leave Type"),
+		() => frappe.timeout(1),
+		() => cur_frm.set_value("leave_type_name", "Test Leave type"),
+		() => cur_frm.set_value("max_days_allowed", "5"),
+		() => frappe.click_check('Is Carry Forward'),
+		// save form
+		() => cur_frm.save(),
+		() => frappe.timeout(1),
+		() => assert.equal("Test Leave type", cur_frm.doc.leave_type_name,
+			'leave type correctly saved'),
 		() => done()
 	]);
-
 });

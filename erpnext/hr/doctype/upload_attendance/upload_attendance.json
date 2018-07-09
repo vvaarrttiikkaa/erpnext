@@ -231,7 +231,7 @@
  "max_attachments": 1, 
  "modified": "2017-11-14 12:51:34.980103", 
  "modified_by": "Administrator", 
- "module": "hr", 
+ "module": "HR", 
  "name": "Upload Attendance", 
  "owner": "harshada@webnotestech.com", 
  "permissions": [
