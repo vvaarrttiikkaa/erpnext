@@ -1,23 +1,23 @@
-QUnit.module('hr');
+/* eslint-disable */
+// rename this file from _test_[name] to test_[name] to activate
+// and remove above this line
 
-QUnit.test("Test: Department [HR]", function (assert) {
-	assert.expect(1);
+QUnit.test("test: Department", function (assert) {
 	let done = assert.async();
 
+	// number of asserts
+	assert.expect(1);
+
 	frappe.run_serially([
-		// test department creation
-		() => frappe.set_route("List", "Department", "List"),
-		() => frappe.new_doc("Department"),
-		() => frappe.timeout(1),
-		() => frappe.quick_entry.dialog.$wrapper.find('.edit-full').click(),
-		() => frappe.timeout(1),
-		() => cur_frm.set_value("department_name", "Test Department"),
-		() => cur_frm.set_value("leave_block_list", "Test Leave block list"),
-		// save form
-		() => cur_frm.save(),
-		() => frappe.timeout(1),
-		() => assert.equal("Test Department", cur_frm.doc.department_name,
-			'name of department correctly saved'),
+		// insert a new Department
+		() => frappe.tests.make('Department', [
+			// values to be set
+			{key: 'value'}
+		]),
+		() => {
+			assert.equal(cur_frm.doc.key, 'value');
+		},
 		() => done()
 	]);
+
 });

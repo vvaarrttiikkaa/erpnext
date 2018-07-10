@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors and Contributors
+# Copyright (c) 2018, Frappe Technologies and Contributors
 # See license.txt
 from __future__ import unicode_literals
 
 import frappe
 import unittest
-
-# test_records = frappe.get_test_records('Expense Claim Type')
 
 class TestExpenseClaimType(unittest.TestCase):
 	pass

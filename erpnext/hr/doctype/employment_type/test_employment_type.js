@@ -1,22 +1,23 @@
-QUnit.module('hr');
+/* eslint-disable */
+// rename this file from _test_[name] to test_[name] to activate
+// and remove above this line
 
-QUnit.test("Test: Employment type [HR]", function (assert) {
-	assert.expect(1);
+QUnit.test("test: Employment Type", function (assert) {
 	let done = assert.async();
 
+	// number of asserts
+	assert.expect(1);
+
 	frappe.run_serially([
-		// test employment type creation
-		() => frappe.set_route("List", "Employment Type", "List"),
-		() => frappe.new_doc("Employment Type"),
-		() => frappe.timeout(1),
-		() => frappe.quick_entry.dialog.$wrapper.find('.edit-full').click(),
-		() => frappe.timeout(1),
-		() => cur_frm.set_value("employee_type_name", "Test Employment type"),
-		// save form
-		() => cur_frm.save(),
-		() => frappe.timeout(1),
-		() => assert.equal("Test Employment type", cur_frm.doc.employee_type_name,
-			'name of employment type correctly saved'),
+		// insert a new Employment Type
+		() => frappe.tests.make('Employment Type', [
+			// values to be set
+			{key: 'value'}
+		]),
+		() => {
+			assert.equal(cur_frm.doc.key, 'value');
+		},
 		() => done()
 	]);
+
 });

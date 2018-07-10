@@ -1,9 +1,10 @@
-# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
-# License: GNU General Public License v3. See license.txt
+# -*- coding: utf-8 -*-
+# Copyright (c) 2018, Frappe Technologies and Contributors
+# See license.txt
 from __future__ import unicode_literals
 
-test_ignore = ["Leave Block List"]
-
-
 import frappe
-test_records = frappe.get_test_records('Department')
+import unittest
+
+class TestDepartment(unittest.TestCase):
+	pass

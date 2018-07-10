@@ -1,15 +1,8 @@
-// Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
-// License: GNU General Public License v3. See license.txt
+// Copyright (c) 2018, Frappe Technologies and contributors
+// For license information, please see license.txt
 
-cur_frm.add_fetch('employee', 'company', 'company');
-cur_frm.add_fetch('employee', 'employee_name', 'employee_name');
+frappe.ui.form.on('Attendance', {
+	refresh: function(frm) {
 
-cur_frm.cscript.onload = function(doc, cdt, cdn) {
-	if(doc.__islocal) cur_frm.set_value("attendance_date", frappe.datetime.get_today());
-}
-
-cur_frm.fields_dict.employee.get_query = function(doc,cdt,cdn) {
-	return{
-		query: "erpnext.controllers.queries.employee_query"
-	}	
-}
+	}
+});

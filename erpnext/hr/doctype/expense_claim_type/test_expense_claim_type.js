@@ -1,30 +1,23 @@
-QUnit.module('hr');
+/* eslint-disable */
+// rename this file from _test_[name] to test_[name] to activate
+// and remove above this line
 
-QUnit.test("Test: Expense Claim Type [HR]", function (assert) {
-	assert.expect(1);
+QUnit.test("test: Expense Claim Type", function (assert) {
 	let done = assert.async();
-	frappe.run_serially([
-		// Creating a Expense Claim Type
-		() => {
-			frappe.tests.make('Expense Claim Type', [
-				{ expense_type: 'Test Expense Type 1'},
-				{ description:'This is just a test'},
-				{ accounts: [
-					[
-						{ company: 'For Testing'},
-						{ default_account: 'Rounded Off - FT'}
-					]
-				]},
-			]);
-		},
-		() => frappe.timeout(5),
 
-		// Checking if the created type is present in the list
+	// number of asserts
+	assert.expect(1);
+
+	frappe.run_serially([
+		// insert a new Expense Claim Type
+		() => frappe.tests.make('Expense Claim Type', [
+			// values to be set
+			{key: 'value'}
+		]),
 		() => {
-			assert.equal('Test Expense Type 1', cur_frm.doc.expense_type,
-				'Expense Claim Type created successfully');
+			assert.equal(cur_frm.doc.key, 'value');
 		},
 		() => done()
 	]);
-});
 
+});
