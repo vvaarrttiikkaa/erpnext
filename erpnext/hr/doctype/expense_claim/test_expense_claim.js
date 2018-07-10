@@ -1,23 +1,45 @@
-/* eslint-disable */
-// rename this file from _test_[name] to test_[name] to activate
-// and remove above this line
+QUnit.module('hr');
 
-QUnit.test("test: Expense Claim", function (assert) {
+QUnit.test("Test: Expense Claim [HR]", function (assert) {
+	assert.expect(3);
 	let done = assert.async();
-
-	// number of asserts
-	assert.expect(1);
-
+	let employee_name;
+	let d;
 	frappe.run_serially([
-		// insert a new Expense Claim
-		() => frappe.tests.make('Expense Claim', [
-			// values to be set
-			{key: 'value'}
-		]),
+		// Creating Expense Claim
+		() => frappe.set_route('List','Expense Claim','List'),
+		() => frappe.timeout(0.3),
+		() => frappe.click_button('New'),
 		() => {
-			assert.equal(cur_frm.doc.key, 'value');
+			cur_frm.set_value('is_paid',1),
+			cur_frm.set_value('expenses',[]),
+			d = frappe.model.add_child(cur_frm.doc,'Expense Claim Detail','expenses'),
+			d.expense_date = '2017-08-01',
+			d.expense_type = 'Test Expense Type 1',
+			d.description  = 'This is just to test Expense Claim',
+			d.claim_amount = 2000,
+			d.sanctioned_amount=2000,
+			refresh_field('expenses');
+		},
+		() => frappe.timeout(1),
+		() => cur_frm.set_value('employee','Test Employee 1'),
+		() => cur_frm.set_value('company','For Testing'),
+		() => cur_frm.set_value('payable_account','Creditors - FT'),
+		() => cur_frm.set_value('cost_center','Main - FT'),
+		() => cur_frm.set_value('mode_of_payment','Cash'),
+		() => cur_frm.save(),
+		() => frappe.click_button('Submit'),
+		() => frappe.click_button('Yes'),
+		() => frappe.timeout(3),
+
+		// Checking if the amount is correctly reimbursed for the employee
+		() => {
+			assert.equal("Test Employee 1",cur_frm.doc.employee, 'Employee name set correctly');
+			assert.equal(1, cur_frm.doc.is_paid, 'Expense is paid as required');
+			assert.equal(2000, cur_frm.doc.total_amount_reimbursed, 'Amount is reimbursed correctly');
+
 		},
 		() => done()
 	]);
-
 });
+
