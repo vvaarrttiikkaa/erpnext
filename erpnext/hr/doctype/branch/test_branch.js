@@ -1,23 +1,23 @@
-/* eslint-disable */
-// rename this file from _test_[name] to test_[name] to activate
-// and remove above this line
+QUnit.module('hr');
 
-QUnit.test("test: Branch", function (assert) {
+QUnit.test("Test: Branch [HR]", function (assert) {
+	assert.expect(1);
 	let done = assert.async();
 
-	// number of asserts
-	assert.expect(1);
-
 	frappe.run_serially([
-		// insert a new Branch
-		() => frappe.tests.make('Branch', [
-			// values to be set
-			{key: 'value'}
-		]),
-		() => {
-			assert.equal(cur_frm.doc.key, 'value');
-		},
+		// test branch creation
+		() => frappe.set_route("List", "Branch", "List"),
+		() => frappe.new_doc("Branch"),
+		() => frappe.timeout(1),
+		() => frappe.quick_entry.dialog.$wrapper.find('.edit-full').click(),
+		() => frappe.timeout(1),
+		() => cur_frm.set_value("branch", "Test Branch"),
+
+		// save form
+		() => cur_frm.save(),
+		() => frappe.timeout(1),
+		() => assert.equal("Test Branch", cur_frm.doc.branch,
+			'name of branch correctly saved'),
 		() => done()
 	]);
-
 });

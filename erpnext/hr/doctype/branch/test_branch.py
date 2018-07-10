@@ -1,10 +1,7 @@
-# -*- coding: utf-8 -*-
-# Copyright (c) 2018, Frappe Technologies and Contributors
-# See license.txt
+# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
+# License: GNU General Public License v3. See license.txt
 from __future__ import unicode_literals
 
-import frappe
-import unittest
 
-class TestBranch(unittest.TestCase):
-	pass
+import frappe
+test_records = frappe.get_test_records('Branch')
