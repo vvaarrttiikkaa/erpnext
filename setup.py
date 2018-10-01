@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 import re, ast
+#import re, ast
 
 with open('requirements.txt') as f:
 	install_requires = f.read().strip().split('\n')
